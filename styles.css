@@ -81,10 +81,16 @@ section {
 }
 .buttonSize{
   width: inherit;
+  transition: 2s scale ease-in 0.5s;
 }
 .buttonSize:hover{
-  scale: 2;
+  scale: 0.5;
+
 }
+.buttonOpacity{
+  opacity: 0.5;
+}
+
 /* MEDIA */
 @media (max-width: 426px) {
   .sectionProjects {
