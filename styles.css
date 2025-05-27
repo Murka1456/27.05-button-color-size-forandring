@@ -82,7 +82,7 @@ section {
 .buttonSize{
   width: inherit;
 }
-.buttonSize{
+.buttonSize:hover{
   scale: 2;
 }
 /* MEDIA */
