@@ -90,7 +90,10 @@ section {
 .buttonOpacity{
   opacity: 0.5;
 }
-
+.buttonOpacity:hover{
+  opacity: 1;
+  
+}
 /* MEDIA */
 @media (max-width: 426px) {
   .sectionProjects {
