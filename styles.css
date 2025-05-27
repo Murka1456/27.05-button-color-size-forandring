@@ -79,6 +79,12 @@ section {
 .buttonColor:hover {
   background-color: orange;
 }
+.buttonSize{
+  width: inherit;
+}
+.buttonSize{
+  scale: 2;
+}
 /* MEDIA */
 @media (max-width: 426px) {
   .sectionProjects {
@@ -94,10 +100,5 @@ section {
   .heroIntro {
     flex-direction: column;
   }
-  .buttonSize{
-    width: inherit;
-  }
-  .buttonSize{
-    scale: 2;
-  }
+  
 }
